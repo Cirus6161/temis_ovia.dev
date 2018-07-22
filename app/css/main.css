@@ -584,7 +584,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1230px;
   }
 }
 
@@ -9539,6 +9539,8 @@ body {
 
 .logo {
   display: inline-block;
+  margin-top: -10px;
+  margin-bottom: 8px;
 }
 
 .logo img {
@@ -9555,7 +9557,7 @@ header {
   line-height: 18px;
   color: black;
   font-weight: 300;
-  padding-left: 44px;
+  padding-left: 54px;
 }
 
 .adress img {
@@ -9575,21 +9577,96 @@ header {
 
 .cellphone {
   position: relative;
-  font-size: 32px;
+  font-size: 31px;
   line-height: 21px;
   color: black;
   font-weight: 300;
   padding-right: 0px;
-  padding-left: 25px;
+  padding-left: 10px;
   padding-top: 7px;
 }
 
 .cellphone img {
   top: 4px;
-  left: -7px;
+  left: -30px;
   position: absolute;
 }
 
 .cellphone span {
   font-weight: 400;
+}
+
+.ask_a_question {
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  float: right;
+  margin-top: 12px;
+}
+
+.ask_a_question a {
+  color: #31bd76;
+  text-decoration: none;
+}
+
+.ask_a_question img {
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.ask_a_question .horizontal_dots {
+  position: absolute;
+  bottom: 1px;
+  right: -4px;
+}
+
+.bottom-header nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#43c9a3), to(#29b763));
+  background-image: -webkit-linear-gradient(left, #43c9a3 0%, #29b763 100%);
+  background-image: -o-linear-gradient(left, #43c9a3 0%, #29b763 100%);
+  background-image: linear-gradient(90deg, #43c9a3 0%, #29b763 100%);
+}
+
+.bottom-header nav ul {
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  width: 100%;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.bottom-header nav ul li {
+  position: relative;
+}
+
+.bottom-header nav ul li:last-child:before {
+  left: -22px;
+  content: "";
+  background-color: #fff;
+  width: 1px;
+  height: 29px;
+  position: absolute;
+}
+
+.bottom-header nav ul li .small_dots {
+  position: absolute;
+  right: -44px;
+  top: 12px;
+}
+
+.bottom-header nav ul li a {
+  position: relative;
+  font-size: 14px;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
