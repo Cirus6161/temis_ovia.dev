@@ -1,0 +1,57 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+  display: inline-block;
+  img{
+    width: 100%;
+  }
+}
+
+header{
+  padding-top: 72px;
+}
+
+.adress{
+  position: relative;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(0,0,0);
+  font-weight: 300;
+  padding-left: 44px;
+  img{
+    position: absolute;
+    display: inline-block;
+    top: 2px;
+    right: -3px;
+  }
+}
+
+.adress-2{
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(0,0,0);
+  font-weight: 300;
+  padding-left: 29px;
+}
+
+.cellphone{
+  position: relative;
+  font-size: 32px;
+  line-height: 21px;
+  color: rgb(0,0,0);
+  font-weight: 300;
+  padding-right: 0px;
+  padding-left: 25px;
+  padding-top: 7px;
+  img{
+    top: 4px;
+    left: -7px;
+    position: absolute;
+  }
+  span{
+    font-weight: 400;
+  }
+}
+
